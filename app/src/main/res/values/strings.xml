@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TeamProfile</string>
+    <string name="donovan_hill">Donovan Hill</string>
+    <string name="program_of_study">Program of Study</string>
 </resources>
