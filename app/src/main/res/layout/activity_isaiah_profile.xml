@@ -13,8 +13,7 @@
         android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/dh_photo" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/is_name"
@@ -25,7 +24,8 @@
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/isaiah_image" />
+        app:layout_constraintTop_toBottomOf="@+id/isaiah_image"
+        tools:text="Isaiah Sarkor" />
 
     <TextView
         android:id="@+id/is_program"
@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/program_text"
+        android:text="Computer Science"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/fun_facts_text"
+        android:text="I'm Canadian."
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,43 +80,41 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/is_ff" />
 
-    <EditText
-        android:id="@+id/isaiah_h"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:cursorVisible="false"
-        android:editable="false"
-        android:ems="10"
-        android:gravity="center|start|center_horizontal|top"
-        android:selectAllOnFocus="false"
-        android:singleLine="false"
-        android:text="@string/hobbies_and_interests_text"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/isaiah_ht" />
-
     <TextView
         android:id="@+id/is_oi_t"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:text="@string/other_information_label"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/isaiah_h" />
+        app:layout_constraintTop_toBottomOf="@+id/isaiah_hi" />
 
     <TextView
         android:id="@+id/is_o_i"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/other_information_text"
-        android:textSize="24sp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="I'm just a simple man trying to make my way in the world."
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/is_oi_t" />
+
+    <TextView
+        android:id="@+id/isaiah_hi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Video Games\nComputers\nGym"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isaiah_ht" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

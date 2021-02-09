@@ -11,10 +11,10 @@ public class DonProfile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_don_profile);
-        ((TextView)findViewById(R.id.dh_textView)).setText("Donovan Hill");
-        ((TextView)findViewById(R.id.dh_program_of_study)).setText("B.Sc (Computer Science)");
-        ((TextView)findViewById(R.id.dh_fun_facts)).setText("I love the word \"Flammenwerfer\"");
-        ((TextView)findViewById(R.id.dh_hobbies)).setText("Many");
-        ((TextView)findViewById(R.id.dh_other_information)).setText("Other");
+        ((TextView)findViewById(R.id.is_name)).setText("Donovan Hill");
+        ((TextView)findViewById(R.id.is_program_of_study)).setText("B.Sc (Computer Science)");
+        ((TextView)findViewById(R.id.is_ff)).setText("I love the word \"Flammenwerfer\"");
+        ((TextView)findViewById(R.id.isaiah_h)).setText("Many");
+        ((TextView)findViewById(R.id.is_o_i)).setText("Other");
     }
 }
