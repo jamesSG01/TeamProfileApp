@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">TeamProfile</string>
-    <string name="name">Donovan Hill</string>
+    <string name="name">name</string>
     <string name="program_label">Program of Study</string>
     <string name="fun_facts_label">Fun Facts</string>
-    <string name="program_text">Computer Science (B.Sc)</string>
-    <string name="fun_facts_text">Flammenwerfers werf flammens.</string>
+    <string name="program_text">Basket Weaving</string>
+    <string name="fun_facts_text">Facts are not fun</string>
     <string name="hobbies_and_interests_label">Hobbies and Interests</string>
     <string name="other_information_text">No</string>
     <string name="other_information_label">Other Information</string>
-    <string name="hobbies_and_interests_text">My hobbies and interests are numerous and not to be trifled with.</string>
+    <string name="hobbies_and_interests_text">If you can read this, you are too close.</string>
 </resources>
