@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">TeamProfile</string>
-    <string name="donovan_hill">Donovan Hill</string>
-    <string name="program_of_study">Program of Study</string>
-    <string name="fun_facts">Fun Facts</string>
-    <string name="computer_science_b_sc">Computer Science (B.Sc)</string>
-    <string name="i_hate_having_my_photo_online">I hate having my photo online</string>
-    <string name="hobbies_and_interests">Hobbies and Interests</string>
-    <string name="no">No</string>
-    <string name="other_information">Other Information</string>
-    <string name="hobbies_and_interests_text">My Hobbies and Interests are numerous and not to be trifled with.</string>
+    <string name="name">Donovan Hill</string>
+    <string name="program_label">Program of Study</string>
+    <string name="fun_facts_label">Fun Facts</string>
+    <string name="program_text">Computer Science (B.Sc)</string>
+    <string name="fun_facts_text">Flammenwerfers werf flammens.</string>
+    <string name="hobbies_and_interests_label">Hobbies and Interests</string>
+    <string name="other_information_text">No</string>
+    <string name="other_information_label">Other Information</string>
+    <string name="hobbies_and_interests_text">My hobbies and interests are numerous and not to be trifled with.</string>
 </resources>
