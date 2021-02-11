@@ -14,7 +14,7 @@ public class DonProfile extends AppCompatActivity {
         ((TextView)findViewById(R.id.dh_textView)).setText("Donovan Hill");
         ((TextView)findViewById(R.id.dh_program_of_study)).setText("B.Sc (Computer Science)");
         ((TextView)findViewById(R.id.dh_fun_facts)).setText("I love the word \"Flammenwerfer\"");
-        ((TextView)findViewById(R.id.dh_hobbies)).setText("Many");
-        ((TextView)findViewById(R.id.dh_other_information)).setText("Other");
+        ((TextView)findViewById(R.id.dh_hobbies)).setText("Antique Radio Restoration\nAmateur Radio");
+        ((TextView)findViewById(R.id.dh_other_information)).setText("Get off my Lawn.");
     }
 }
