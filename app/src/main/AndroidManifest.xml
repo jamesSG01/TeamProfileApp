@@ -11,6 +11,7 @@
         android:theme="@style/Theme.TeamProfile">
         <activity android:name=".DonProfile"></activity>
         <activity android:name=".IsaiahProfile"></activity>
+        <activity android:name=".JamesProfile"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

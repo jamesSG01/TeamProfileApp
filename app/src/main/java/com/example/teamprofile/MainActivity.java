@@ -21,4 +21,7 @@ public class MainActivity extends AppCompatActivity {
     public void Don_profile(View v){
         startActivity(new Intent(MainActivity.this, DonProfile.class));
     }
+    public void James_profile(View v) {
+        startActivity(new Intent(MainActivity.this, JamesProfile.class));
+    }
 }
