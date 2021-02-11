@@ -25,6 +25,7 @@
         android:layout_width="163dp"
         android:layout_height="45dp"
         android:layout_marginTop="92dp"
+        android:onClick="James_profile"
         android:text="Jame's Profile"
         app:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
