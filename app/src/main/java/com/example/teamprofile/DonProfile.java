@@ -11,7 +11,7 @@ public class DonProfile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_don_profile);
-        ((TextView)findViewById(R.id.dh_textView)).setText("Donovan Hill");
+        ((TextView)findViewById(R.id.name_textView)).setText("Donovan Hill");
         ((TextView)findViewById(R.id.dh_program_of_study)).setText("B.Sc (Computer Science)");
         ((TextView)findViewById(R.id.dh_fun_facts)).setText("I love the word \"Flammenwerfer\"");
         ((TextView)findViewById(R.id.dh_hobbies)).setText("Antique Radio Restoration\nAmateur Radio");

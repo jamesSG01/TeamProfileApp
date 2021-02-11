@@ -9,4 +9,11 @@
     <string name="other_information_text">No</string>
     <string name="other_information_label">Other Information</string>
     <string name="hobbies_and_interests_text">If you can read this, you are too close.</string>
+    <string name="james_nguyen">James Nguyen</string>
+    <string name="computer_science">Computer Science</string>
+    <string name="james_s_other_information">James\'s other information</string>
+    <string name="james_s_fun_facts">James\'s fun facts</string>
+    <string name="jame_s_program_study">Jame\'s program study</string>
+    <string name="james_avatar">james_avatar</string>
+    <string name="james_s_hobbies_interest"><![CDATA[James\'s hobbies & interest]]></string>
 </resources>
