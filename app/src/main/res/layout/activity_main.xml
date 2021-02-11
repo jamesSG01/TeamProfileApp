@@ -37,6 +37,7 @@
         android:layout_width="163dp"
         android:layout_height="47dp"
         android:text="Don's Profile"
+        android:onClick="Don_profile"
         app:backgroundTint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"

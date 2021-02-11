@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
     public void Isaiah_profile(View v){
         startActivity(new Intent(MainActivity.this, IsaiahProfile.class));
     }
+
+    public void Don_profile(View v){
+        startActivity(new Intent(MainActivity.this, DonProfile.class));
+    }
 }

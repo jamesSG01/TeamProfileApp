@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DonProfile"
-    android:background="@drawable/dark_blue">
+    tools:context=".DonProfile">
 
     <ImageView
-        android:id="@+id/isaiah_image"
+        android:id="@+id/dh_imageView"
         android:layout_width="177dp"
         android:layout_height="170dp"
         android:layout_marginTop="24dp"
@@ -18,77 +17,71 @@
         tools:srcCompat="@drawable/dh_photo" />
 
     <TextView
-        android:id="@+id/is_name"
+        android:id="@+id/dh_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/name"
-        android:textColor="@color/white"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/isaiah_image" />
+        app:layout_constraintTop_toBottomOf="@+id/dh_imageView" />
 
     <TextView
-        android:id="@+id/is_program"
+        android:id="@+id/dh_lbl_program"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/program_label"
-        android:textColor="@color/white"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/is_name" />
+        app:layout_constraintTop_toBottomOf="@+id/dh_textView" />
 
     <TextView
-        android:id="@+id/isaiah_ff_title"
+        android:id="@+id/dh_lbl_fun_facts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/fun_facts_label"
-        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/is_program_of_study" />
+        app:layout_constraintTop_toBottomOf="@+id/dh_program_of_study" />
 
     <TextView
-        android:id="@+id/is_program_of_study"
+        android:id="@+id/dh_program_of_study"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/program_text"
-        android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/is_program" />
+        app:layout_constraintTop_toBottomOf="@+id/dh_lbl_program" />
 
     <TextView
-        android:id="@+id/is_ff"
+        android:id="@+id/dh_fun_facts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/fun_facts_text"
-        android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/isaiah_ff_title" />
+        app:layout_constraintTop_toBottomOf="@+id/dh_lbl_fun_facts" />
 
     <TextView
-        android:id="@+id/isaiah_ht"
+        android:id="@+id/dh_lbl_hobbies"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/hobbies_and_interests_label"
-        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/is_ff" />
+        app:layout_constraintTop_toBottomOf="@+id/dh_fun_facts" />
 
     <EditText
-        android:id="@+id/isaiah_h"
+        android:id="@+id/dh_hobbies"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -99,34 +92,31 @@
         android:selectAllOnFocus="false"
         android:singleLine="false"
         android:text="@string/hobbies_and_interests_text"
-        android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/isaiah_ht" />
+        app:layout_constraintTop_toBottomOf="@+id/dh_lbl_hobbies" />
 
     <TextView
-        android:id="@+id/is_oi_t"
+        android:id="@+id/dh_lbl_other_information"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/other_information_label"
-        android:textColor="@color/white"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/isaiah_h" />
+        app:layout_constraintTop_toBottomOf="@+id/dh_hobbies" />
 
     <TextView
-        android:id="@+id/is_o_i"
+        android:id="@+id/dh_other_information"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/other_information_text"
-        android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/is_oi_t" />
+        app:layout_constraintTop_toBottomOf="@+id/dh_lbl_other_information" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
